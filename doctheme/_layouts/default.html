@@ -69,7 +69,6 @@
           });
        });
     </script>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     {% endif %}
 
 </head>
@@ -98,18 +97,8 @@
 <!-- /.container -->
 </div>
 <!-- /#main -->
-<script>
-        if (window.netlifyIdentity) {
-            window.netlifyIdentity.on("init", user => {
-                if (!user) {
-                    window.netlifyIdentity.on("login", () => {
-                        document.location.href = "/admin/";
-                    });
-                }
-            });
-        }
-</script>
     </div>
+
 </body>
 {% if site.google_analytics %}
 {% include google_analytics.html %}
