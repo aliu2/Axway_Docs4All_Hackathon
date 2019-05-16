@@ -6,6 +6,4 @@ This is just a test post from the previous year.
 
 {% include links.html %}
 
-TESTING GIT GATEWAY PERMISSIONS
-
-TESTING EVEN MORE PERMISSIONS
+Testing testing testing
